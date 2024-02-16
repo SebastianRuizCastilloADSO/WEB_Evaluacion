@@ -1,0 +1,55 @@
+:root{
+  --main-color: rgba(255,227,1,255);
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+.fredericka-the great-regular {
+  font-family: "Fredericka the Great", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--main-color);
+}
+.header__logo{
+  align-self: center;
+  margin: 3%;
+}
+.header__nav{
+  display: flex;
+  flex-direction: column;
+}
+.header__aside{
+  align-self: flex-end;
+  margin: 5px;
+  font-family: sans-serif;
+}
+.header__aside--num{
+  font-size: 27px;
+}
+.header__ul{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  margin: 10px;
+}
+.header__ul--option{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.landing{
+  display: flex;
+  flex-direction: column;
+}
+.landing__first{
+  background-color: var(--main-color);
+}
+.landing__banner--text{
+  font-family: "Fredericka the Great", serif;
+}
